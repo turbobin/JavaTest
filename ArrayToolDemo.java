@@ -9,7 +9,9 @@ public class ArrayToolDemo {
 //		ArrayTool tool = new ArrayTool();
 //		int max = tool.getMax(arr);
 		int max = ArrayTool.getMax(arr); //类工具调用
+		int min = ArrayTool.getMin(arr); //类工具调用
 		System.out.println("max="+max);
+		System.out.println("max="+min);
 		
 		ArrayTool.boubleSort(arr);
 		ArrayTool.printArr(arr);

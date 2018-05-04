@@ -20,6 +20,7 @@ public class StaticDemo {
 		Person1 p = new Person1();
 		p.name = "张三";
 		p.show();
+		Person1.country = "EN";
 		System.out.println(Person1.country); //被static修饰的静态变量可以直接被类名调用。
 //		System.out.println(Person1.name);  //调用错误。
 //		Person1.show();  //被static修饰的静态方法可以直接被类名调用。

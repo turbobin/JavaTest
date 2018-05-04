@@ -57,7 +57,7 @@ public class ArrayTool		//类的权限必须为public，才可使用javadoc工具
 		int min=arr[0];
 		for(int x=1; x<arr.length;x++)
 		{
-			if (arr[x] > min)
+			if (arr[x] < min)
 				min = arr[x];
 		}
 		return min;
